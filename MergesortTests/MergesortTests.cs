@@ -46,6 +46,7 @@ namespace MergesortTests
             Mergesort mergeSort = new Mergesort();
 
             List<int> toSort = new List<int> { 2 };
+            mergeSort.Sort(toSort);
 
             List<int> expected = new List<int> { 2 };
             CollectionAssert.AreEqual(expected, toSort);
